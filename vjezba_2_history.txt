@@ -194,3 +194,51 @@
   194  cat OS2-zadaca/data/style.css
   195  cat OS2-zadaca/data/.env
   196  history > vjezba_2_history.txt
+  197  git add .
+  198  git commit -m "Riješen zadatak 2"
+  199  git push
+  200  cp -rv OS2-zadaca/data/. OS2-zadaca/backup/
+  201  cd OS2-zadaca/data
+  202  la -laS ../backup
+  203  history > vjezba_2_history.txt
+  204  git commit -m "Riješen zadatak 3"
+  205  git add vjezba_2_history.txt
+  206  git add ../backup
+  207  git commit -m "Riješen zadatak 3"
+  208  git push
+  209  cd ..
+  210  rm -iv OS2-zadaca/data/script.js OS2-zadaca/data/style.css
+  211  ls OS2-zadaca/data
+  212  rm -iv OS2-zadaca/data/script.js OS2-zadaca/data/style.css
+  213  ls OS2-zadaca/data
+  214  ls OS2-zadaca
+  215  cd OS2-zadaca/data
+  216  cp -rvn ../backup/. .
+  217  ls -lt -A -1 OS2-zadaca/backup
+  218  cd ..
+  219  cd data
+  220  cp -rvn ../backup/. .
+  221  ls ../backup
+  222  ls -lt -a -1
+  223  ls 
+  224  rm -iv script.js style.css
+  225  ls
+  226  ls -lt -A -1
+  227  cd ..
+  228  tree data
+  229  history > vjezba_2_history.txt
+  230  git add vjezba_2_history.txt
+  231  git add .
+  232  git commit -m "Riješen zadatak 4"
+  233  git push
+  234  cd ~/Documents/Fipu
+  235  cd /mnt/c/Users/HiwePC8/Documents/Fipu
+  236  ls -laS
+  237  ls -lSh
+  238  tree -a
+  239  sudo apt install tree
+  240  sudo snap install tree  # version 2.1.3+pkg-5852
+  241  tree -a
+  242  cd /mnt/c/Users/HiwePC8/Documents/GitHub/OS-vjezbe
+  243  hihistory > vjezba_2_history.txt
+  244  history > vjezba_2_history.txt
