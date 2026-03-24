@@ -201,3 +201,29 @@
   201  cd OS2-zadaca/data
   202  la -laS ../backup
   203  history > vjezba_2_history.txt
+  204  git commit -m "Riješen zadatak 3"
+  205  git add vjezba_2_history.txt
+  206  git add ../backup
+  207  git commit -m "Riješen zadatak 3"
+  208  git push
+  209  cd ..
+  210  rm -iv OS2-zadaca/data/script.js OS2-zadaca/data/style.css
+  211  ls OS2-zadaca/data
+  212  rm -iv OS2-zadaca/data/script.js OS2-zadaca/data/style.css
+  213  ls OS2-zadaca/data
+  214  ls OS2-zadaca
+  215  cd OS2-zadaca/data
+  216  cp -rvn ../backup/. .
+  217  ls -lt -A -1 OS2-zadaca/backup
+  218  cd ..
+  219  cd data
+  220  cp -rvn ../backup/. .
+  221  ls ../backup
+  222  ls -lt -a -1
+  223  ls 
+  224  rm -iv script.js style.css
+  225  ls
+  226  ls -lt -A -1
+  227  cd ..
+  228  tree data
+  229  history > vjezba_2_history.txt
